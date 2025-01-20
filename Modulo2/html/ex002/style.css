@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url();
+body {
+    font-family: Arial, Helvetica, sans-serif; /* MEDIDAS ABSOLUTAS
+    cm, mm, in, px, pt, pc
+    
+    MEDIDAS RELATIVAS
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em as duas são as mais recomendadas
+    */
+    font-size: 1em;/*TAMANHO DA FONTE*/
+    font-style: italic;/* DEIXA ITALICO */
+    text-decoration: underline;/* DEIXA SUBLINHADO */
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+}
+
+h2 {
+     /* SHORTHAND FONT - font-style -> font-weight -> font-size -> font-family. ESSA É A ORDEM QUE DEVE SER SEGUIDA*/
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
