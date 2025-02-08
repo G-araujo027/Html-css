@@ -15,17 +15,24 @@
 }
 
 .cabecalho {
-    height: 300px;
+    height: 250px;
     background-color: var(--preto);
     color: var(--branco);
     text-align: center;
     font-family: "Passion One", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 h1 {
-   
+   font-size: 64px;
+}
 
+p > header{
+    font-weight: normal
+}
+
+#link-milton {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
 }
     
