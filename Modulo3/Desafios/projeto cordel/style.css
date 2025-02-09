@@ -9,4 +9,43 @@
 :root {
     --fonte1: "Passion One", cursive;
     --fonte2: "Sriracha", serif;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho{
+    height: 180px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.titulo-cabecalho {
+    padding-top: 40px;
+    font-size: 3.5em;
+    font-family: var(--fonte1);
+}
+
+.paragrafo-cabecalho {
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--fonte3);
+}
+
+.link-cabecalho{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.poesia {
+    margin:-248px 0px 0px -191px;
+    font-size: 3em;
+    font-family: var(--fonte2);
+    max-width: 300px;
+    
+}
+
+.foto-1 {
+    background-image: url(imagens/background001.jpg);
 }
